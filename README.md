@@ -60,7 +60,7 @@
 for {
     tea.Drink()
     if tea.Level() < 10 {
-        tea.Refill()
+        tea.Refine()
     }
     code.Write()
 }
