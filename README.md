@@ -58,9 +58,9 @@
 ````go
 // drscrewdriver's daily workflow
 for {
-    coffee.Drink()
-    if coffee.Level() < 10 {
-        coffee.Refill()
+    tea.Drink()
+    if tea.Level() < 10 {
+        tea.Refill()
     }
     code.Write()
 }
