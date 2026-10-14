@@ -70,6 +70,8 @@
 **🌱 生态与实验**
 
 - [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。 ![月下载](https://img.shields.io/npm/dm/dsh-transition-webui?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-docs-deliverables-skill](https://github.com/drscrewdriver/dsh-docs-deliverables-skill) — 文档库的 skill 化分发：4 个代码核验的知识 skill（插件开发契约 / 六线宿主跨版本适配账本 / 发布与投稿纪律 / 宿主架构解读），经官方 ctx.skills provider 提供。
+- [dsh-docs-deliverables](https://github.com/drscrewdriver/dsh-docs-deliverables) — DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。
 
 ---
 
