@@ -69,9 +69,7 @@
 
 **🌱 生态与实验**
 
-- [awesome-dsh-plugin](https://github.com/drscrewdriver/awesome-dsh-plugin) — DSH 插件索引：清单、适配报告与安装指引。
 - [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。 ![月下载](https://img.shields.io/npm/dm/dsh-transition-webui?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [JevLoop](https://github.com/drscrewdriver/JevLoop) — 「决策不花模型调用」的 agent loop。 ![月下载](https://img.shields.io/npm/dm/jevloop?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 
 ---
 
