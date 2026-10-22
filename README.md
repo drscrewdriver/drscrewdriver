@@ -9,10 +9,10 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=600&lines=AI+Infrastructure+%7C+Go+%7C+TypeScript+%7C+TUI+Enthusiast;%E6%8A%8A+Agent+%E7%9A%84%E8%83%BD%E5%8A%9B%E7%BC%9D%E9%9A%99%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%80%E4%B8%AA%E8%A1%A5%E4%B8%8A;DeepSeek+Harness+%E6%8F%92%E4%BB%B6%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE%E8%80%85&center=true&vCenter=true&duration=2000" />
 
 ![访客](https://komarev.com/ghpvc/?username=drscrewdriver&style=flat-square&label=%E8%AE%BF%E5%AE%A2&color=4d6bfe)
-![npm 插件](https://img.shields.io/badge/npm%20%E6%8F%92%E4%BB%B6-35-4d6bfe?style=flat-square)
-![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-13w%2B-2ea44f?style=flat-square)
+![npm 插件](https://img.shields.io/badge/npm%20%E6%8F%92%E4%BB%B6-40-4d6bfe?style=flat-square)
+![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-18w%2B-2ea44f?style=flat-square)
 
-*npm 数据截至 2026-10-14：35 个已发布包，上月下载合计 137,751*
+*npm 数据截至 2026-10-18 窗口（9/19–10/18）：账号下 40 个已发布包（含历史/别名包），上月下载合计 181,446 次*
 
 </div>
 
@@ -23,7 +23,7 @@
 - 🧠 **AI 基础设施构建者** —— 打造支撑 AI 工作流的底层系统
 - 🐹 **Go 爱好者** —— 用 Go 造高性能后端与 CLI/TUI 工具
 - ⚡ **TypeScript 折腾家** —— 喜欢用插件生态扩展各个平台
-- 🔌 **插件架构师** —— DeepSeek Harness 贡献者：思考强度调节、会话管理、流量控制
+- 🔌 **插件架构师** —— DeepSeek Harness 贡献者：思考强度、浏览器 CDP、记忆蒸馏、权限门禁
 - 🖥️ **终端控** —— 能在终端里跑的，我都感兴趣
 
 > “The best tools are the ones you build yourself.” —— 最好的工具，永远是自己造的那把。
@@ -32,16 +32,18 @@
 
 ## 🚀 精选插件（按 Star 排名，同星看月下载）
 
-> 🔥 当前主推：[dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-canvas-tsx-sidebar](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar)（Canvas 报告渲染）
+> 🔥 当前主推：[dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp)（CDP 真实浏览器）· [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-canvas-tsx-sidebar](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar)（Canvas 报告渲染）
+
+> 🆕 最近一周发布：dsh-prime-memory `0.26.6` · dsh-thinking-levels `4.4.4` · dsh-browser-cdp `1.6.0` · dsh-tidy-display `0.4.4` · @drscrewdriver/dsh-union-search `0.10.12`
 
 | | |
 |:---|:---|
-| **01** · [**dsh-thinking-levels**](https://github.com/drscrewdriver/dsh-thinking-levels)<br>思考强度自动调节：按工具轮次动态调整 reasoning_effort，支持手动锁定与每工具耗时遥测。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-thinking-levels?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-thinking-levels?style=flat-square&label=%E2%98%85&color=f1c40f) | **02** · [**dsh-session-guard**](https://github.com/drscrewdriver/dsh-session-guard)<br>高峰自动会话门：周末模式、高峰自动暂停、官方源二维判定、会话级冻结与后端自动重试。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-session-guard?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-session-guard?style=flat-square&label=%E2%98%85&color=f1c40f) |
-| **03** · [**dsh-search-index**](https://github.com/drscrewdriver/dsh-search-index)<br>侧栏会话检索：标题 ↔ 内容一键切换，可按用户/回复/工具筛选；自带独立索引与快照导入导出。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-search-index?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-search-index?style=flat-square&label=%E2%98%85&color=f1c40f) | **04** · [**dsh-input-traffic**](https://github.com/drscrewdriver/dsh-input-traffic)<br>繁忙时段输入队列：now/next/later 三级规划、拖拽排序、并发保护、插话转向与中断。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-input-traffic?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-input-traffic?style=flat-square&label=%E2%98%85&color=f1c40f) |
-| **05** · [**dsh-prime-memory**](https://github.com/drscrewdriver/dsh-prime-memory)<br>L0~L3 分层蒸馏记忆：自动捕获对话 → 抽取原子记忆 → 整合场景块 → 蒸馏核心画像，模型步骤前自动召回注入。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-prime-memory?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-prime-memory?style=flat-square&label=%E2%98%85&color=f1c40f) | **06** · [**dsh-perm-gate**](https://github.com/drscrewdriver/dsh-perm-gate)<br>确定性优先、失败即拒绝的权限门禁：P0 硬拒 → P1 会话授权 → P2 静态规则 → P3 语义分类 → P4 询问。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-perm-gate?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-perm-gate?style=flat-square&label=%E2%98%85&color=f1c40f) |
-| **07** · [**dsh-docs-deliverables**](https://github.com/drscrewdriver/dsh-docs-deliverables)<br>DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。<br>![文档](https://img.shields.io/badge/%F0%9F%93%96-%E6%96%87%E6%A1%A3%E7%9F%A5%E8%AF%86%E5%BA%93-4d6bfe?style=flat-square) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-docs-deliverables?style=flat-square&label=%E2%98%85&color=f1c40f) | **08** · [**dsh-context-compression-improved**](https://github.com/drscrewdriver/dsh-context-compression-improved)<br>上下文压缩增强：给长会话瘦身，省 token 也不丢关键信息。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-context-compression-improved?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-context-compression-improved?style=flat-square&label=%E2%98%85&color=f1c40f) |
-| **09** · [**dsh-canvas-tsx-sidebar**](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar)<br>Qoder Canvas 的 `*.canvas.tsx` 报告渲染为侧栏结构化页面（纯静态解析，不执行代码）。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-canvas-tsx-sidebar?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-canvas-tsx-sidebar?style=flat-square&label=%E2%98%85&color=f1c40f) | **10** · [**dsh-date-wrapper**](https://github.com/drscrewdriver/dsh-date-wrapper)<br>46 字符极简日期行注入运行时上下文，约 12 tokens，无需改官方源码。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-date-wrapper?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-date-wrapper?style=flat-square&label=%E2%98%85&color=f1c40f) |
-| **11** · [**inferglow**](https://github.com/drscrewdriver/inferglow)<br>Go 实现的 AI 推理基座：推理底座 + TUI + server 一体。<br>![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![★](https://img.shields.io/github/stars/drscrewdriver/inferglow?style=flat-square&label=%E2%98%85&color=f1c40f) | **12** · [**qwen3-5-skill-path-handler-fix**](https://github.com/drscrewdriver/qwen3-5-skill-path-handler-fix)<br>纯 Python 小工具：拦截修复 Qwen3.5 模型路径被误插空格的加载故障，零依赖。<br>![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![★](https://img.shields.io/github/stars/drscrewdriver/qwen3-5-skill-path-handler-fix?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **01** · [**dsh-browser-cdp**](https://github.com/drscrewdriver/dsh-browser-cdp)<br>浏览器自动化：CDP 附着真实 Chrome/Edge（不捆绑浏览器），30+ 结构化工具，实时直播面板可看、可点、可下载。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-browser-cdp?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-browser-cdp?style=flat-square&label=%E2%98%85&color=f1c40f) | **02** · [**dsh-thinking-levels**](https://github.com/drscrewdriver/dsh-thinking-levels)<br>思考强度自动调节：按工具轮次动态调整 reasoning_effort，支持手动锁定与每工具耗时遥测。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-thinking-levels?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-thinking-levels?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **03** · [**dsh-prime-memory**](https://github.com/drscrewdriver/dsh-prime-memory)<br>L0~L3 分层蒸馏记忆：自动捕获对话 → 抽取原子记忆 → 整合场景块 → 蒸馏核心画像，模型步骤前自动召回注入。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-prime-memory?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-prime-memory?style=flat-square&label=%E2%98%85&color=f1c40f) | **04** · [**dsh-context-compression-improved**](https://github.com/drscrewdriver/dsh-context-compression-improved)<br>上下文压缩增强：给长会话瘦身，省 token 也不丢关键信息；附带正交的代码骨架压缩门。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-context-compression-improved?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-context-compression-improved?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **05** · [**dsh-perm-gate**](https://github.com/drscrewdriver/dsh-perm-gate)<br>确定性优先、失败即拒绝的权限门禁：P0 硬拒 → P1 会话授权 → P2 静态规则 → P3 语义分类 → P4 询问。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-perm-gate?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-perm-gate?style=flat-square&label=%E2%98%85&color=f1c40f) | **06** · [**dsh-session-guard**](https://github.com/drscrewdriver/dsh-session-guard)<br>高峰自动会话门：周末模式、高峰自动暂停、官方源二维判定、会话级冻结与后端自动重试。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-session-guard?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-session-guard?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **07** · [**dsh-search-index**](https://github.com/drscrewdriver/dsh-search-index)<br>侧栏会话检索：标题 ↔ 内容一键切换，可按用户/回复/工具筛选；自带独立索引与快照导入导出。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-search-index?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-search-index?style=flat-square&label=%E2%98%85&color=f1c40f) | **08** · [**dsh-input-traffic**](https://github.com/drscrewdriver/dsh-input-traffic)<br>繁忙时段输入队列：now/next/later 三级规划、拖拽排序、并发保护、插话转向与中断。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-input-traffic?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-input-traffic?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **09** · [**dsh-brief-sidebar**](https://github.com/drscrewdriver/dsh-brief-sidebar)<br>右侧栏会话简报：todo 看板 + 产物实时流，只读。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-brief-sidebar?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-brief-sidebar?style=flat-square&label=%E2%98%85&color=f1c40f) | **10** · [**dsh-docs-deliverables**](https://github.com/drscrewdriver/dsh-docs-deliverables)<br>DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。<br>![文档](https://img.shields.io/badge/%F0%9F%93%96-%E6%96%87%E6%A1%A3%E7%9F%A5%E8%AF%86%E5%BA%93-4d6bfe?style=flat-square) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-docs-deliverables?style=flat-square&label=%E2%98%85&color=f1c40f) |
+| **11** · [**dsh-patch-edit-plus**](https://github.com/drscrewdriver/dsh-patch-edit-plus)<br>patch 式文件编辑：一个 apply_patch 工具吃 git/unified diff 与 Codex apply_patch 语法，全有或全无。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-patch-edit-plus?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-patch-edit-plus?style=flat-square&label=%E2%98%85&color=f1c40f) | **12** · [**dsh-canvas-tsx-sidebar**](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar)<br>Qoder Canvas 的 `*.canvas.tsx` 报告渲染为侧栏结构化页面（纯静态解析，不执行代码）。<br>![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![月下载](https://img.shields.io/npm/dm/dsh-canvas-tsx-sidebar?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f) ![★](https://img.shields.io/github/stars/drscrewdriver/dsh-canvas-tsx-sidebar?style=flat-square&label=%E2%98%85&color=f1c40f) |
 
 ---
 
@@ -49,38 +51,49 @@
 
 **🧠 会话与可观测**
 
+- [dsh-session-steward](https://github.com/drscrewdriver/dsh-session-steward) — 会话管家：历史归档浏览清理 + 健康体检（体检 → 处方 → 出院），只做可逆处置。 ![月下载](https://img.shields.io/npm/dm/dsh-session-steward?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-tidy-display](https://github.com/drscrewdriver/dsh-tidy-display) — 阅读视图 + 消息导航轨：长会话的整洁显示（合并自上游 dsh-better-display × dsh-tidychat）。 ![月下载](https://img.shields.io/npm/dm/dsh-tidy-display?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-arrowkey-nav](https://github.com/drscrewdriver/dsh-arrowkey-nav) — 方向键导航：上/下切换会话，左/右切换工作区。 ![月下载](https://img.shields.io/npm/dm/dsh-arrowkey-nav?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-live-token-stats](https://github.com/drscrewdriver/dsh-live-token-stats) — 基于 DeepSeek 官方 BPE 分词的实时 token 状态带：流式 TPS、首字延迟、上下轮偏差一目了然。 ![月下载](https://img.shields.io/npm/dm/dsh-live-token-stats?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp) — 浏览器自动化：CDP 附着现有 Chrome/Edge，30+ 结构化工具，实时直播面板可看、可点、可下载。 ![月下载](https://img.shields.io/npm/dm/dsh-browser-cdp?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-synapse](https://github.com/drscrewdriver/dsh-synapse) — 可视化非线性对话工作区：把一条线的聊天，变成一张自由生长的画布。 ![月下载](https://img.shields.io/npm/dm/dsh-synapse?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-tidychat](https://github.com/drscrewdriver/dsh-tidychat) — 会话时间线整理：已完成轮次自动折叠、过程/结论分隔线、贴边导航轨。 ![月下载](https://img.shields.io/npm/dm/@bananasoldier01/dsh-tidychat?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-arrowkey-nav](https://github.com/drscrewdriver/dsh-arrowkey-nav) — 方向键导航：上/下切换会话，左/右切换工作区。 ![月下载](https://img.shields.io/npm/dm/dsh-arrowkey-nav?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar) — 右侧栏会话简报：todo 看板 + 产物实时流，只读。 ![月下载](https://img.shields.io/npm/dm/dsh-brief-sidebar?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-session-steward](https://github.com/drscrewdriver/dsh-session-steward) — 会话管家：历史归档浏览清理 + 健康体检（体检 → 处方 → 出院），只做可逆处置。 ![月下载](https://img.shields.io/npm/dm/dsh-session-steward?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-tidy-display](https://github.com/drscrewdriver/dsh-tidy-display) — 阅读视图 + 消息导航轨：长会话的整洁显示（合并自上游 dsh-better-display）。 ![月下载](https://img.shields.io/npm/dm/dsh-tidy-display?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-session-search](https://github.com/drscrewdriver/dsh-session-search) — 无索引跨 agent 会话检索：直接只读扫描 dsh / Codex / Claude Code / pi / OpenCode 的历史对话。 ![月下载](https://img.shields.io/npm/dm/dsh-session-search?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-reference-session-collector](https://github.com/drscrewdriver/dsh-reference-session-collector) — 会话原文投影同步器（DRS）：只读扫描会话日志 → 投影进自有 SQLite（segments / replaces / FTS5），绝不回写会话文件。
 
 **⚙️ 系统与编辑**
 
 - [dsh-bash-terminal-ts](https://github.com/drscrewdriver/dsh-bash-terminal-ts) — Windows 上一套 shell 工具通吃 PowerShell / Git Bash / MSYS2 / WSL，Web UI 可选默认终端。 ![月下载](https://img.shields.io/npm/dm/dsh-bash-terminal-ts?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-patch-edit-plus](https://github.com/drscrewdriver/dsh-patch-edit-plus) — patch 式文件编辑：一个 apply_patch 工具吃 git/unified diff 与 Codex 语法，全有或全无。 ![月下载](https://img.shields.io/npm/dm/dsh-patch-edit-plus?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) — MCP 连接器受治理注册表（stdio / streamable-http）：四级 fail-closed 授权。 ![月下载](https://img.shields.io/npm/dm/dsh-mcp-registry?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) — MCP 连接器受治理注册表（stdio / streamable-http）：四级 fail-closed 授权，凭据全程脱敏。 ![月下载](https://img.shields.io/npm/dm/dsh-mcp-registry?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-preset-doctor](https://github.com/drscrewdriver/dsh-preset-doctor) — 预设体检与机械修复：识别旧格式、改名包、失效配置键，带备份与原子写、幂等重跑。 ![月下载](https://img.shields.io/npm/dm/dsh-preset-doctor?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-date-wrapper](https://github.com/drscrewdriver/dsh-date-wrapper) — 46 字符极简日期行注入运行时上下文，约 12 tokens，无需改官方源码。 ![月下载](https://img.shields.io/npm/dm/dsh-date-wrapper?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-paste-dock](https://github.com/drscrewdriver/dsh-paste-dock) — 大段文本粘贴自动存档为 pastes/*.txt，输入框上方 dock 卡片管理，正文只留最小徽标。 ![月下载](https://img.shields.io/npm/dm/dsh-paste-dock?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-llm-openai-completions](https://github.com/drscrewdriver/dsh-llm-openai-completions) — OpenAI completions 兼容网关适配（vLLM / LM Studio / 自建代理）。 ![月下载](https://img.shields.io/npm/dm/dsh-llm-openai-completions?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-seatbelt-sandbox](https://github.com/drscrewdriver/dsh-seatbelt-sandbox) — macOS Seatbelt（libsandbox）沙箱 provider，替换官方本地沙箱档位。
 
 **🌱 生态与实验**
 
-- [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。 ![月下载](https://img.shields.io/npm/dm/dsh-transition-webui?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-union-search](https://github.com/drscrewdriver/dsh-union-search) — 联合搜索：免费 keyless 引擎 + 多家专业搜索 API，智能路由、SearXNG 多实例、advance_fetch 正文抽取。 ![月下载](https://img.shields.io/npm/dm/@drscrewdriver/dsh-union-search?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-im-union](https://github.com/drscrewdriver/dsh-im-union) — IM 联合桥接：微信 iLink / Telegram / Discord / 飞书 / 企微 机器人接入宿主会话。 ![月下载](https://img.shields.io/npm/dm/dsh-im-union?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-media-lens](https://github.com/drscrewdriver/dsh-media-lens) — 媒体证据透镜：视频/音频/图片转成结构化证据（时间线 / 转写 / 区域），带 provider 路由。 ![月下载](https://img.shields.io/npm/dm/dsh-media-lens?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。
 - [dsh-docs-deliverables-skill](https://github.com/drscrewdriver/dsh-docs-deliverables-skill) — 文档库的 skill 化分发：4 个代码核验的知识 skill（插件开发契约 / 六线宿主跨版本适配账本 / 发布与投稿纪律 / 宿主架构解读），经官方 ctx.skills provider 提供。
-- [dsh-docs-deliverables](https://github.com/drscrewdriver/dsh-docs-deliverables) — DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。
+
+---
+
+## 🧪 其他项目
+
+- [inferglow](https://github.com/drscrewdriver/inferglow) — Go 实现的 AI 推理基座：推理底座 + TUI + server 一体。
+- [qwen3-5-skill-path-handler-fix](https://github.com/drscrewdriver/qwen3-5-skill-path-handler-fix) — 纯 Python 小工具：拦截修复 Qwen3.5 模型路径被误插空格的加载故障，零依赖。
 
 ---
 
 ## 🧭 当前方向
 
-- 🚚 **DSH 0.2.0-rc 适配**：15 条 rc 线 peerDependencies 白名单，逐线兼容矩阵验证
-- 🧠 **记忆与整理**：prime-memory 的 L0~L3 蒸馏管线；session-steward 归档 + 检索一体化
-- 🔐 **安全与权限**：perm-gate 四级门禁；沙箱隔离（AppContainer / Seatbelt）
-- 🖥 **侧栏生态**：重点推会话简报（brief-sidebar）与 Canvas 报告渲染（canvas-tsx-sidebar）；Office 文档查看已由官方支持，不再单独推进
+- 🚚 **DSH 0.2.1-rc 适配** —— peer 白名单最宽已覆盖 17 条 rc 线（0.1.0-rc.2 ~ 0.2.1-rc.2），逐线 engines 校验 + dist-tag 分发
+- 🧠 **记忆与整理** —— prime-memory 的 L0~L3 蒸馏管线；session-steward 归档 + 体检；reference-session-collector 会话投影
+- 🔐 **安全与权限** —— perm-gate 五级门禁；沙箱隔离（AppContainer / Seatbelt）
+- 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）与 Canvas 报告渲染（canvas-tsx-sidebar）；Office 文档查看已由官方支持，不再单独推进
+- 🔍 **搜索与浏览器** —— union-search 联合多引擎；browser-cdp 接管真实浏览器
 
 ---
 
