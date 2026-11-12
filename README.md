@@ -10,7 +10,7 @@
 
 ![访客](https://komarev.com/ghpvc/?username=drscrewdriver&style=flat-square&label=%E8%AE%BF%E5%AE%A2&color=4d6bfe)
 ![npm 插件](https://img.shields.io/badge/npm%20%E6%8F%92%E4%BB%B6-40-4d6bfe?style=flat-square)
-![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-35w%2B-2ea44f?style=flat-square)
+![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-29w%2B-2ea44f?style=flat-square)
 
 *npm 数据截至 2026-10-18 窗口（9/19–10/18）：账号下 40 个已发布包（含历史/别名包），上月下载合计 181,446 次*
 
