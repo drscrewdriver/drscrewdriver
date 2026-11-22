@@ -79,6 +79,7 @@
 
 - [dsh-im-union](https://github.com/drscrewdriver/dsh-im-union) — IM 联合桥接：微信 iLink / Telegram / Discord / 飞书 / 企微 机器人接入宿主会话。 ![月下载](https://img.shields.io/npm/dm/dsh-im-union?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-media-lens](https://github.com/drscrewdriver/dsh-media-lens) — 媒体证据透镜：视频/音频/图片转成结构化证据（时间线 / 转写 / 区域），带 provider 路由。 ![月下载](https://img.shields.io/npm/dm/dsh-media-lens?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-spirit](https://github.com/drscrewdriver/dsh-spirit) — 第一人称体验条目（prime-memory 姊妹线）：把流程事件编译成角色体验点滴，派生情绪档并在每步模型前注入回忆卡。已插件化（0.9.x），但实际效果不佳，实验线。 ![月下载](https://img.shields.io/npm/dm/dsh-spirit?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-docs-deliverables](https://github.com/drscrewdriver/dsh-docs-deliverables) — DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。
 - [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。
 - [dsh-docs-deliverables-skill](https://github.com/drscrewdriver/dsh-docs-deliverables-skill) — 文档库的 skill 化分发：4 个代码核验的知识 skill（插件开发契约 / 六线宿主跨版本适配账本 / 发布与投稿纪律 / 宿主架构解读），经官方 ctx.skills provider 提供。
@@ -95,7 +96,7 @@
 ## 🧭 当前方向
 
 - 🚚 **DSH 0.2.1-rc 适配** —— peer 白名单最宽已覆盖 17 条 rc 线（0.1.0-rc.2 ~ 0.2.1-rc.2），逐线 engines 校验 + dist-tag 分发
-- 🧠 **记忆与整理** —— prime-memory 的 L0~L3 蒸馏管线；manage-session（原 session-steward）归档 + 体检；reference-session-collector 会话投影
+- 🧠 **记忆与整理** —— prime-memory 的 L0~L3 蒸馏管线；manage-session（原 session-steward）归档 + 体检；reference-session-collector 会话投影；spirit 第一人称体验实验线
 - 🔐 **安全与权限** —— perm-gate 五级门禁；沙箱隔离（AppContainer / Seatbelt）
 - 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）与 Canvas 报告渲染（canvas-tsx-sidebar）；Office 文档查看已由官方支持，不再单独推进
 - 🔍 **搜索与浏览器** —— union-search 联合多引擎；browser-cdp 接管真实浏览器
