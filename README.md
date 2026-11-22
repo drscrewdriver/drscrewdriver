@@ -33,7 +33,7 @@
 
 ## 🚀 精选插件（按 Star 排名，同星看月下载）
 
-> 🔥 当前主推：[dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp)（CDP 真实浏览器）· [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-canvas-tsx-sidebar](https://github.com/drscrewdriver/dsh-canvas-tsx-sidebar)（Canvas 报告渲染）
+> 🔥 当前主推：[dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp)（CDP 真实浏览器）· [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-windows-parallel-mcp](https://github.com/drscrewdriver/dsh-windows-parallel-mcp)（Windows 窗口并行驱动 · 敬请期待）
 
 > 🆕 最近一周发布：dsh-mcp-registry `0.3.21` · dsh-prime-memory `0.26.68` · dsh-thinking-levels `4.6.0` · dsh-perm-gate `5.5.10` · dsh-browser-cdp `1.14.8` · dsh-union-search `0.10.25`
 
@@ -98,7 +98,8 @@
 - 🚚 **DSH 0.2.1-rc 适配** —— peer 白名单最宽已覆盖 17 条 rc 线（0.1.0-rc.2 ~ 0.2.1-rc.2），逐线 engines 校验 + dist-tag 分发
 - 🧠 **记忆与整理** —— prime-memory 的 L0~L3 蒸馏管线；manage-session（原 session-steward）归档 + 体检；reference-session-collector 会话投影；spirit 第一人称体验实验线
 - 🔐 **安全与权限** —— perm-gate 五级门禁；沙箱隔离（AppContainer / Seatbelt）
-- 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）与 Canvas 报告渲染（canvas-tsx-sidebar）；Office 文档查看已由官方支持，不再单独推进
+- 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）；Office 文档查看已由官方支持，不再单独推进
+- 🪟 **Windows 并行** —— windows-parallel-mcp：不动光标驱动自己的窗口，逐窗口判定回执（当前重心，敬请期待）
 - 🔍 **搜索与浏览器** —— union-search 联合多引擎；browser-cdp 接管真实浏览器
 
 ---
