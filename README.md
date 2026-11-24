@@ -33,9 +33,9 @@
 
 ## 🚀 精选插件（按 Star 排名，同星看月下载）
 
-> 🔥 当前主推：[dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp)（CDP 真实浏览器）· [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-windows-parallel-mcp](https://github.com/drscrewdriver/dsh-windows-parallel-mcp)（Windows 窗口并行驱动 · 敬请期待）
+> 🔥 当前主推：[dsh-browser-cdp](https://github.com/drscrewdriver/dsh-browser-cdp)（CDP 真实浏览器）· [dsh-brief-sidebar](https://github.com/drscrewdriver/dsh-brief-sidebar)（右侧栏会话简报）· [dsh-windows-parallel-mcp](https://github.com/drscrewdriver/dsh-windows-parallel-mcp)（Windows 窗口并行驱动 · 0.7.0 已上线）
 
-> 🆕 最近一周发布：dsh-mcp-registry `0.3.21` · dsh-prime-memory `0.26.68` · dsh-thinking-levels `4.6.0` · dsh-perm-gate `5.5.10` · dsh-browser-cdp `1.14.8` · dsh-union-search `0.10.25`
+> 🆕 最近一周发布：dsh-windows-parallel-mcp `0.7.0` · dsh-prime-memory `0.26.73` · dsh-input-traffic `0.7.18` · dsh-perm-gate `5.6.0` · dsh-browser-cdp `1.14.10` · dsh-spirit `0.9.2`
 
 | | |
 |:---|:---|
@@ -69,7 +69,7 @@
 - [dsh-patch-edit-plus](https://github.com/drscrewdriver/dsh-patch-edit-plus) — patch 式文件编辑：一个 apply_patch 工具吃 git/unified diff 与 Codex apply_patch 语法，全有或全无。 ![月下载](https://img.shields.io/npm/dm/dsh-patch-edit-plus?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-mcp-registry](https://github.com/drscrewdriver/dsh-mcp-registry) — MCP 连接器受治理注册表（stdio / streamable-http）：四级 fail-closed 授权，凭据全程脱敏。 ![月下载](https://img.shields.io/npm/dm/dsh-mcp-registry?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-preset-doctor](https://github.com/drscrewdriver/dsh-preset-doctor) — 预设体检与机械修复：识别旧格式、改名包、失效配置键，带备份与原子写、幂等重跑。 ![月下载](https://img.shields.io/npm/dm/dsh-preset-doctor?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-windows-parallel-mcp](https://github.com/drscrewdriver/dsh-windows-parallel-mcp) — Windows 窗口并行驱动 MCP：不动光标驱动自己的 Windows 窗口，一个工具五种动作，每次调用返回可追责的判定回执。 ![月下载](https://img.shields.io/npm/dm/dsh-windows-parallel-mcp?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-windows-parallel-mcp](https://github.com/drscrewdriver/dsh-windows-parallel-mcp) — Windows 窗口并行驱动 MCP：不动光标驱动自己的 Windows 窗口，一个工具十一种动作，每次调用返回可追责的判定回执（十七个拒绝码 + 审计留痕）。 ![月下载](https://img.shields.io/npm/dm/dsh-windows-parallel-mcp?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-date-wrapper](https://github.com/drscrewdriver/dsh-date-wrapper) — 46 字符极简日期行注入运行时上下文，约 12 tokens，无需改官方源码。 ![月下载](https://img.shields.io/npm/dm/dsh-date-wrapper?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-paste-dock](https://github.com/drscrewdriver/dsh-paste-dock) — 大段文本粘贴自动存档为 pastes/*.txt，输入框上方 dock 卡片管理，正文只留最小徽标。 ![月下载](https://img.shields.io/npm/dm/dsh-paste-dock?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-llm-openai-completions](https://github.com/drscrewdriver/dsh-llm-openai-completions) — OpenAI completions 兼容网关适配（vLLM / LM Studio / 自建代理）。 ![月下载](https://img.shields.io/npm/dm/dsh-llm-openai-completions?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
@@ -79,7 +79,7 @@
 
 - [dsh-im-union](https://github.com/drscrewdriver/dsh-im-union) — IM 联合桥接：微信 iLink / Telegram / Discord / 飞书 / 企微 机器人接入宿主会话。 ![月下载](https://img.shields.io/npm/dm/dsh-im-union?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-media-lens](https://github.com/drscrewdriver/dsh-media-lens) — 媒体证据透镜：视频/音频/图片转成结构化证据（时间线 / 转写 / 区域），带 provider 路由。 ![月下载](https://img.shields.io/npm/dm/dsh-media-lens?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
-- [dsh-spirit](https://github.com/drscrewdriver/dsh-spirit) — 第一人称体验条目（prime-memory 姊妹线）：把流程事件编译成角色体验点滴，派生情绪档并在每步模型前注入回忆卡。已插件化（0.9.x），但实际效果不佳，实验线。 ![月下载](https://img.shields.io/npm/dm/dsh-spirit?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
+- [dsh-spirit](https://github.com/drscrewdriver/dsh-spirit) — 第一人称体验条目（prime-memory 姊妹线）：把流程事件编译成角色体验点滴，派生情绪档并在每步模型前注入回忆卡。npm 已发 0.9.x；仓内正把定位从「记忆库」重钉为「生平编年」（0.10/0.11 推进中），实际效果仍在验证，实验线。 ![月下载](https://img.shields.io/npm/dm/dsh-spirit?style=flat-square&label=%E6%9C%88%E4%B8%8B%E8%BD%BD&color=2ea44f)
 - [dsh-docs-deliverables](https://github.com/drscrewdriver/dsh-docs-deliverables) — DSH 文档知识库：官方文档全量镜像、社区 6300+ 篇讨论精选、源码解析与插件框架指南。
 - [dsh-transition-webui](https://github.com/drscrewdriver/dsh-transition-webui) — 像素级复刻原版界面的过渡版 Web UI，亦可作为自建 agent 界面的脚手架。
 - [dsh-docs-deliverables-skill](https://github.com/drscrewdriver/dsh-docs-deliverables-skill) — 文档库的 skill 化分发：4 个代码核验的知识 skill（插件开发契约 / 六线宿主跨版本适配账本 / 发布与投稿纪律 / 宿主架构解读），经官方 ctx.skills provider 提供。
@@ -95,11 +95,11 @@
 
 ## 🧭 当前方向
 
-- 🚚 **DSH 0.2.1-rc 适配** —— peer 白名单最宽已覆盖 17 条 rc 线（0.1.0-rc.2 ~ 0.2.1-rc.2），逐线 engines 校验 + dist-tag 分发
-- 🧠 **记忆与整理** —— prime-memory 的 L0~L3 蒸馏管线；manage-session（原 session-steward）归档 + 体检；reference-session-collector 会话投影；spirit 第一人称体验实验线
-- 🔐 **安全与权限** —— perm-gate 五级门禁；沙箱隔离（AppContainer / Seatbelt）
-- 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）；Office 文档查看已由官方支持，不再单独推进
-- 🪟 **Windows 并行** —— windows-parallel-mcp：不动光标驱动自己的窗口，逐窗口判定回执（当前重心，敬请期待）
+- 🚚 **持续跨版本适配** —— engines.dsh 声明已统一收敛为有界区间（覆盖整个 0.2.x 窗口），宿主出新 rc 无需插件发版即可安装；适配动作转为逐线契约面核实 + farm 沙盒实测账本，当前跟随 0.2.2-rc 线
+- 🧠 **记忆与整理** —— prime-memory 持续优化记忆展示与蒸馏管线、增强召回/引用效果（面板四语 i18n、DRSC 健康投影、同库召回开销 3.0s → 毫秒级）；manage-session（原 session-steward）归档 + 体检；reference-session-collector 会话投影；spirit 第一人称体验实验线
+- 🔐 **安全与权限** —— perm-gate 五级门禁，凭据与网络保护面持续扩张（云元数据端点、SSH 私钥变体、敏感扩展名族、unshare 命名空间）；沙箱隔离（macOS Seatbelt provider，替换官方本地档位）
+- 🖥 **侧栏生态** —— 主推会话简报（brief-sidebar）：PTC 会话的产物/技能/搜索三区可见性已补齐；Office 文档查看已由官方支持，不再单独推进
+- 🪟 **Windows 并行** —— windows-parallel-mcp：不动光标驱动自己的窗口，十一种动作 · 逐调用判定回执（当前重心；下一步 MCP stdio 双通道形态）
 - 🔍 **搜索与浏览器** —— union-search 联合多引擎；browser-cdp 接管真实浏览器
 
 ---
