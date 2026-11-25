@@ -9,11 +9,11 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=600&lines=AI+Infrastructure+%7C+Go+%7C+TypeScript+%7C+TUI+Enthusiast;%E6%8A%8A+Agent+%E7%9A%84%E8%83%BD%E5%8A%9B%E7%BC%9D%E9%9A%99%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%B8%80%E4%B8%AA%E8%A1%A5%E4%B8%8A;DeepSeek+Harness+%E6%8F%92%E4%BB%B6%E7%94%9F%E6%80%81%E5%BB%BA%E8%AE%BE%E8%80%85&center=true&vCenter=true&duration=2000" />
 
 ![访客](https://komarev.com/ghpvc/?username=drscrewdriver&style=flat-square&label=%E8%AE%BF%E5%AE%A2&color=4d6bfe)
-![npm 插件](https://img.shields.io/badge/npm%20%E6%8F%92%E4%BB%B6-40-4d6bfe?style=flat-square)
-![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-64w%2B-2ea44f?style=flat-square)
-![注册中心](https://img.shields.io/badge/DSH%20%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83-Owner%20%236%20%C2%B7%20T1-4d6bfe?style=flat-square)
+![npm 插件](https://img.shields.io/badge/npm%20%E6%8F%92%E4%BB%B6-50-4d6bfe?style=flat-square)
+![月下载](https://img.shields.io/badge/npm%20%E6%9C%88%E4%B8%8B%E8%BD%BD-80w%2B-2ea44f?style=flat-square)
+![注册中心](https://img.shields.io/badge/DSH%20%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83-Owner%20%234%20%C2%B7%20T0-4d6bfe?style=flat-square)
 
-*npm 数据截至 2026-11-22 快照（DSH 注册中心窗口 10/23–11/21）：在榜插件 29 个，窗口下载合计 642,531 次；账号下已发布包 40 个（含历史/别名包）。Owner 排名 #6 · T1*
+*npm 数据截至 2026-11-26 快照（DSH 注册中心窗口 10/26–11/24）：在榜插件 29 个，窗口下载合计 807,689 次；账号下已发布包 50 个（含历史/别名包）。Owner 排名 #4 · T0*
 
 </div>
 
